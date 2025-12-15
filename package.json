@@ -20,6 +20,10 @@
         "css",
         "utilities"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ArtusLama/tailwind-underlines.git"
+    },
     "author": "Arthur Paucke",
     "license": "MIT",
     "devDependencies": {

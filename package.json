@@ -1,0 +1,32 @@
+{
+    "name": "@artusdev/tailwind-underlines",
+    "version": "1.0.0",
+    "description": "A Tailwind CSS v4 plugin that adds advanced and animated underline utilities for flexible text decoration control.",
+    "files": [
+        "dist"
+    ],
+    "style": "dist/index.css",
+    "scripts": {
+        "publish": "npm publish --access public",
+        "lint": "stylelint \"**/*.css\""
+    },
+    "keywords": [
+        "tailwindcss",
+        "tailwind",
+        "underline",
+        "text-decoration",
+        "plugin",
+        "animation",
+        "css",
+        "utilities"
+    ],
+    "author": "Arthur Paucke",
+    "license": "MIT",
+    "devDependencies": {
+        "prettier": "^3.7.3",
+        "stylelint": "^16.26.1",
+        "stylelint-config-standard": "^39.0.1",
+        "stylelint-config-tailwindcss": "^1.0.0",
+        "stylelint-prettier": "^5.0.3"
+    }
+}

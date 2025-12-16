@@ -52,6 +52,6 @@ jobs:
 
             - name: 📝 Create draft release and tag
               if: steps.check.outputs.version_changed == 'true'
-              run: gh release create "v${{ steps.check.outputs.new_version }}" --draft --generate-notes --title "🔖 v${{ steps.check.outputs.new_version }}"
+              run: gh release create "v${{ steps.check.outputs.new_version }}" --draft --generate-notes
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

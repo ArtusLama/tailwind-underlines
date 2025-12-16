@@ -39,7 +39,7 @@
     --underline-timing: var(--underline-timing-ease-in-out);
     --underline-origin-in: left;
     --underline-origin-out: left;
-    --underline-color: currentColor;
+    --underline-color: currentcolor;
 
     @variant after {
         position: absolute;

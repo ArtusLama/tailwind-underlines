@@ -8,6 +8,7 @@
     "style": "dist/index.css",
     "scripts": {
         "publish": "npm publish --access public",
+        "test": "stylelint \"**/*.css\"",
         "lint": "stylelint \"**/*.css\""
     },
     "keywords": [

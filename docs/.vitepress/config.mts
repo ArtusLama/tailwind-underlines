@@ -1,5 +1,5 @@
-import { defineConfig } from "vitepress";
-import Tailwind from "@tailwindcss/vite";
+import { defineConfig } from "vitepress"
+import Tailwind from "@tailwindcss/vite"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -56,4 +56,4 @@ export default defineConfig({
     vite: {
         plugins: [Tailwind()],
     },
-});
+})

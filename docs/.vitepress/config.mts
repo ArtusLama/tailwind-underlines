@@ -1,19 +1,21 @@
 import { defineConfig } from "vitepress"
 import Tailwind from "@tailwindcss/vite"
 
+const basePath = "/tailwind-underlines/"
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "Tailwind Underlines",
     titleTemplate: "Tailwind Underlines",
     description:
         "A TailwindCSS plugin for beautiful animated underlines. Documentation and live demo of the tailwind-underlines plugin",
-    base: "/",
+    base: basePath,
     cleanUrls: true,
     lang: "en-US",
     appearance: "dark",
     lastUpdated: true,
 
-    head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+    head: [["link", { rel: "icon", href: `${basePath}favicon.ico` }]],
 
     themeConfig: {
         logo: "/logo.svg",
